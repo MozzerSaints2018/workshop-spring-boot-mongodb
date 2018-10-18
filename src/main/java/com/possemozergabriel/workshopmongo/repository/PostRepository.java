@@ -8,4 +8,5 @@ import com.possemozergabriel.workshopmongo.domain.Post;
 @Repository
 public interface PostRepository extends MongoRepository<Post, String> {
 
+
 }

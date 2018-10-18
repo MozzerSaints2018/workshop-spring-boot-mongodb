@@ -1,4 +1,4 @@
-package com.possemozergabriel.workshopmongo.service;
+package com.possemozergabriel.workshopmongo.services;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.possemozergabriel.workshopmongo.domain.User;
 import com.possemozergabriel.workshopmongo.dto.UserDTO;
 import com.possemozergabriel.workshopmongo.repository.UserRepository;
-import com.possemozergabriel.workshopmongo.service.exception.ObjectNotFoundException;
+import com.possemozergabriel.workshopmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {

@@ -1,4 +1,4 @@
-package com.possemozergabriel.workshopmongo.service.exception;
+package com.possemozergabriel.workshopmongo.services.exception;
 
 public class ObjectNotFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
